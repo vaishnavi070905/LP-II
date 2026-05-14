@@ -1,0 +1,22 @@
+// Simple Calculator Program in Apex using User Input
+
+public class Calculator {
+
+    public static void main() {
+
+        Integer a = Integer.valueOf('10');
+        Integer b = Integer.valueOf('5');
+
+        Integer add = a + b;
+        Integer sub = a - b;
+        Integer mul = a * b;
+        Decimal div = (Decimal)a / b;
+
+        System.debug('Addition = ' + add);
+        System.debug('Subtraction = ' + sub);
+        System.debug('Multiplication = ' + mul);
+        System.debug('Division = ' + div);
+    }
+}
+
+// to Run Calculator.main();
